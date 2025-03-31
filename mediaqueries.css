@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
     main {
         grid-template-columns: 1fr 1fr;
         width: calc(100% - 120px);
@@ -30,6 +33,7 @@
     }
 }
 @media screen and (min-width: 1200px) {
+    
     main {
         grid-template-columns: repeat(4, 1fr);
         width: calc(100% - 322px);
